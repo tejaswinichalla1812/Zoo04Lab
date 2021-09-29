@@ -1,5 +1,7 @@
 # Zoo04Lab
 
+> Welcome to our Zoo! 
+
 ## 4 Principles of Objectf-Oriented Programming (OOP)
 
 - Encapsulation. Wrap code in good interfaces. Hide private data, expose publicly accessible methods.
