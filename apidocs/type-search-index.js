@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"edu.nwmissouri.zoo04lab","l":"Aardvark"},{"l":"All Classes","u":"allclasses-index.html"},{"p":"edu.nwmissouri.zoo04lab","l":"Animal"},{"p":"edu.nwmissouri.zoo04lab","l":"ZooApp"}];updateSearchResults();
