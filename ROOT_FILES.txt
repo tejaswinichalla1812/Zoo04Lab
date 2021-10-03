@@ -1,0 +1,10 @@
+.git
+.gitignore
+docs
+src
+target
+pom.xml
+licenseheader.txt
+LICENSE.md
+README.md
+ROOT_FILES.txt
