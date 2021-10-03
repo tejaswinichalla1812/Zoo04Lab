@@ -22,7 +22,7 @@ public class Aardvark extends Animal {
 
     @Override
     public void move() {
-        System.out.println("When I move, I walk, walk, walk.\n");
+        System.out.println("When I move, I walk, walk, walk.");
     }
 
 }
