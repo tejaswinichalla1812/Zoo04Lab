@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
  
     <groupId>edu.nwmissouri</groupId>
@@ -68,6 +68,48 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.1</version>
+                <configuration>
+                    <excludes>
+                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Arvicolinae.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Beercat.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Cow.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Dinosaur.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Duck.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Giraffe.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/MightyLion.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/PandaGroup.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Shoebill.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Squirrel.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Tiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Walrus.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Liger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/liger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/puma.java</exclude>
+
+
+                   
+                    </excludes>
+                </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -86,19 +128,19 @@
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>${maven.shade}</version>
                 <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals>
-                    <goal>shade</goal>
-                    </goals>
-                    <configuration>
-                    <transformers>
-                        <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                        <mainClass>edu.nwmissouri.zoo04lab.App</mainClass>
-                        </transformer>
-                    </transformers>
-                    </configuration>
-                </execution>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>edu.nwmissouri.zoo04lab.ZooApp</mainClass>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
