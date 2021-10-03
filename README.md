@@ -9,3 +9,6 @@
 - Inheritance. Write once in a parent class and all the derived child classes get it for free.
 - Polymorphism. "Many shapes". One thing (e.g. move) can take many forms, e.g. a snake might move by slithering, while a bird might move by flying. 
 
+## API
+
+- Explore API at <https://denisecase.github.io/Zoo04Lab/edu/nwmissouri/zoo04lab/package-summary.html>
