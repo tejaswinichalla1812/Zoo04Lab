@@ -93,6 +93,8 @@
                         <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/MightyLion.java</exclude>
+                           <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
+                          <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/PandaGroup.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
@@ -105,12 +107,58 @@
                         <exclude>edu/nwmissouri/zoo04lab/Liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/puma.java</exclude>
-
-
-                   
                     </excludes>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.3.1</version>
+                <configuration>
+                    <reportOutputDirectory>${basedir}</reportOutputDirectory>
+                     <destDir>docs</destDir>
+                    <sourcepath>${basedir}/src/main/java/</sourcepath>
+                    <sourceFileExcludes>
+                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Arvicolinae.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Beercat.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Cow.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Dinosaur.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Duck.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Giraffe.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/MightyLion.java</exclude>
+                         <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
+                          <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/PandaGroup.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Shoebill.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Squirrel.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Tiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Walrus.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Liger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/liger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/puma.java</exclude>
+                    </sourceFileExcludes>
+                </configuration>
+            </plugin> 
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>

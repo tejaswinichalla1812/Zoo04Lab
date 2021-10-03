@@ -9,12 +9,20 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 
 /**
- * Check files in root project folder.
+ * Check for code files in unusual places - root, src, wrong package.
  *
  * @author Denise Case
  */
 public class ZooCheckFiles {
 
+    /**
+     * This main() method launches the checks:
+     *    listUnexpectedFilesInRoot();
+     *    listUnexpectedFilesInSrc();
+     *    listUnexpectedFilesInSrcMainJava();
+     * @param args
+     * @throws IOException 
+     */
     public static void main(String args[]) throws IOException {
         listUnexpectedFilesInRoot();
         listUnexpectedFilesInSrc();
@@ -95,8 +103,8 @@ public class ZooCheckFiles {
     /**
      * Read a file and return contents as an ArrayList of Strings
      *
-     * @param fileName
-     * @return
+     * @param fileName - the String path and file name of the file to read
+     * @return ArrayList of Strings with each line in the file as an entry
      */
     public static ArrayList<String> getFileLines(String fileName) {
         var lines = new ArrayList<String>();

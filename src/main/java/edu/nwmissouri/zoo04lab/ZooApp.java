@@ -21,6 +21,11 @@ public class ZooApp {
     // specify number of  animal types available
     private static final int NUMBER_ANIMAL_TYPES = 1;
 
+    /**
+     * This main() method is the entry point for our application. 
+     * 
+     * @param args - inputs provided to the program (none required)
+     */
     public static void main(String[] args) {
 
         // output welcome
