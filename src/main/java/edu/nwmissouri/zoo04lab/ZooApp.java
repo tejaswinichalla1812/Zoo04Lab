@@ -64,18 +64,9 @@ public class ZooApp {
 
                 // switch by animal type
                 switch (typeNumberInput) {
-                    case 1 -> {                      
-                        System.out.println("Hey - look! \n");
-                        var a = new Aardvark("Austin");
-                        var b = new Aardvark("Bud");
-                        var c = new Aardvark("Cass");                       
-                        a.speak();
-                        a.move();
-                        b.speak();
-                        b.move();
-                        c.speak();
-                        c.move();                      
-                        System.out.println("\nThat was fun!\n");
+                    case 1 -> {             
+                        AardvarkGroup.create();
+                        AardvarkGroup.run();
                     }
                     default -> {
                     }

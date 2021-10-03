@@ -9,34 +9,36 @@ import java.util.ArrayList;
  */
 public class AardvarkGroup {
 
-    private static final ArrayList<Aardvark> myGroup = new ArrayList<Aardvark>();
+    private static ArrayList<Aardvark> myGroup;
 
     /**
      * Create a static group of Aardvarks
+     *
+     * @return the number of animals in the group
      */
-    public static void create() {
+    public static int create() {
+        myGroup = new ArrayList<>();
+        
         Aardvark a = new Aardvark("Abbie");
         myGroup.add(a);
         myGroup.add(new Aardvark("Boss"));
         myGroup.add(new Aardvark("Cass"));
+
+        return myGroup.size();
     }
 
     /**
      * Run (simulate) the group doing things
      */
     public static void run() {
-
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
         System.out.println("Hey - look at the aardvarks!");
-
         myGroup.forEach(aardvark -> {
             aardvark.speak();
             aardvark.move();
         });
-
-        System.out.println("\nNice aardvarks - that was fun!");
+        System.out.println("Nice aardvarks - that was fun!");
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-
     }
 
 }
