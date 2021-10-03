@@ -92,9 +92,8 @@
                         <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/MightyLion.java</exclude>
-                           <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
-                          <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/PandaGroup.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
@@ -116,7 +115,7 @@
                 <version>3.3.1</version>
                 <configuration>
                     <reportOutputDirectory>${basedir}</reportOutputDirectory>
-                     <destDir>docs</destDir>
+                    <destDir>docs</destDir>
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
                     <sourceFileExcludes>
                         <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
@@ -141,9 +140,8 @@
                         <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/MightyLion.java</exclude>
-                         <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
-                          <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/PandaGroup.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
