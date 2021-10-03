@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.VenkataPrabhakar04Lab;
-
+package edu.nwmissouri.zoo04lab;
 /**
  *
  * @author Venkata Prabhakar Takkellapati
