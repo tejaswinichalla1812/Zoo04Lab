@@ -2,7 +2,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.naguruabdur04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
