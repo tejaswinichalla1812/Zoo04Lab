@@ -10,7 +10,7 @@ package edu.nwmissouri.zoo04lab;
  * @author S545712
  */
 public class MightyLion extends Animal {
-     public Lion(String name){
+     public MightyLion(String name){
         super(name);
     }
 
