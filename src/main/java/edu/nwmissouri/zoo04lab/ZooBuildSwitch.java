@@ -82,6 +82,8 @@ public class ZooBuildSwitch {
             }
         }
         System.out.println("===============================\n");
+        System.out.println("Update NUMBER_ANIMAL_TYPES = ? \n");
+        System.out.println("===============================\n");
 
     }
 
