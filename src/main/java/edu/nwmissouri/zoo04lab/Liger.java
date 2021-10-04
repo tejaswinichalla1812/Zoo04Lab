@@ -3,35 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.zoo04lab;
+package ed.nwmissouri.RevanthPagilla04lab;
 
 /**
  *
- * @author Tejaswini Challa
+ * @author RevanthPagilla
  */
 public class Liger extends Animal {
-   public Liger(String name) 
-   {
-       super(name);
-   }
-
     /**
-     *
+     * Liger constructor
+     * @param name - the name of this instance of an animal
      */
+    
+    public Liger(String name){
+        super(name);
+    }
+
     @Override
-   public void speak()
-    {
-        System.out.println("I am an Liger "+this.name);
+    public void move() {
+        System.out.println("I will climb trees ");
     }
-   @Override
-    public void size()
-    {
-        System.out.println("I am much larger than average tiger cub");
-    }
-   @Override
-    public void place()
-    {
-        System.out.println("Exists in California");
+
+    @Override
+    public void speak() {
+         System.out.printf("I'm %s. I'm an Liger! \n", this.name);
     }
     
+    
 }
+
