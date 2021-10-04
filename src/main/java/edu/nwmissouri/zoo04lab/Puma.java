@@ -1,25 +1,18 @@
-package edu.nwmissouri.SaiKaushikBeeram04lab;
 
-/**
- *
- * @author Sai Kaushik Beeram
- */
-//custom animal extends Animal class
-public class Puma extends Animal {
-    
-    //Declaration of string name
-    
-    public Puma(String name){
-        super(name);
-        
+    public class Puma extends Animal {
+        public Puma(String name){
+         super(name);
     }
     
-    public void speak(){
-        System.out.println("Puma sound");
+    @Override
+    public void speak() {
+        System.out.println("I'm an puma!");
     }
     
-    public void move(){
-        System.out.println("Puma movement");
+    @Override
+    public void move() {
+        System.out.println("When I move, I walk, walk, walk.");
     }
+    
 }
-  
+
