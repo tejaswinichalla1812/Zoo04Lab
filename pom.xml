@@ -72,20 +72,15 @@
                     <excludes>
                         <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Arvicolinae.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Beercat.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Cat.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Cow.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Dinosaur.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Duck.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude> 
                         <exclude>edu/nwmissouri/zoo04lab/ElephantBird.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>                          
@@ -96,25 +91,18 @@
                         <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Panda.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Puma.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Rabbit.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Shoebill.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/SiberianTiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Squirrel.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Tiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Walrus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/YukonMoose.java</exclude>
                         <exclude>StingRay.java</exclude>
                     </excludes>
@@ -128,23 +116,18 @@
                     <reportOutputDirectory>${basedir}</reportOutputDirectory>
                     <destDir>docs</destDir>
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
-                    <sourceFileExcludes>
+                    <sourceFileExcludes>              
                         <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Arvicolinae.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Beercat.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
+                        <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Buffalo.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Cat.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Cow.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Dinosaur.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Duck.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Elephant.java</exclude> 
                         <exclude>edu/nwmissouri/zoo04lab/ElephantBird.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Emu.java</exclude>                          
@@ -155,25 +138,18 @@
                         <exclude>edu/nwmissouri/zoo04lab/Griffin.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/HarpSeal.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Hippopotamus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Koala.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Lioness.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Okapi</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Okapi.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Panda.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ProngHorn.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Puma.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Rabbit.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/RedDeer.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Shoebill.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/SiberianTiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Squirrel.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Stag.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/TauntingTiger.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/Tiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Walrus.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/liger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/YukonMoose.java</exclude>
                         <exclude>StingRay.java</exclude>
                     </sourceFileExcludes>
