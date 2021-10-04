@@ -32,22 +32,4 @@ public class Dinosaur extends Animal {
         System.out.println("I roam here and there");
     }
     
-    /**
-     * This method is used to print hunt
-     */
-
-    @Override
-    public void hunt() {
-        System.out.println("I hunt fresh animals");
-    }
-    
-    /**
-     * This method is used to print routine
-     */
-    
-    @Override
-    public void routine() {
-        System.out.println("I EAT...SLEEP...AND RERPEAT..!");
-    }
-
 }
