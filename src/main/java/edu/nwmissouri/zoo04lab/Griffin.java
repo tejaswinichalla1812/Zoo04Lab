@@ -7,15 +7,13 @@ package edu.nwmissouri.zoo04lab;
  */
 public class Griffin extends Animal {
 
+    /**
+     * Griffin constructor
+     * Creates an instance of the Griffin class, requires a name
+     * @param name The name we will be giving our new Griffin
+     */
     public Griffin(String name) {
         super(name);
-        
-        this.species_name = "Griffin";
-        this.species_latin = "grȳpus";
-        this.locationFound = "Fantasy";
-        this.sleepDuration_hours = 8;
-        this.movementSpeed_mph = 80;
-        this.isExtinct = true;
     }
 
     /**
