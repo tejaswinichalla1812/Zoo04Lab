@@ -1,4 +1,4 @@
-package edu.nwmissouri.Akarapu04lab;
+package edu.nwmissouri.zoo04lab;
 /**
  *
  * @author NIKHIL KUMAR AKARAPU
