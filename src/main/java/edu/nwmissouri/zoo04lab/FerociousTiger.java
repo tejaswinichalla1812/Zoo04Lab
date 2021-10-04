@@ -9,18 +9,18 @@ package edu.nwmissouri.zoo04lab;
  *
  * @author Saitej Veerabathini
  */
-public class Tiger extends Animal{
+public class FerociousTigerTiger extends Animal{
     
     /***
-     * Constructor for Tiger
-     * @param name - the name of this Tiger
+     * Constructor for FerociousTiger
+     * @param name - the name of this FerociousTiger
      */
-    public Tiger(String name){
+    public FerociousTiger(String name){
         super(name);
     }
     
     /***
-     * Override method for Tiger Speak
+     * Override method for FerociousTiger Speak
      */
     @Override
     public void speak() {
@@ -28,20 +28,14 @@ public class Tiger extends Animal{
     }
     
     /***
-     * Override method for Tiger Move
+     * Override method for FerociousTiger Move
      */
     @Override
     public void move() {
         System.out.println("I move on 4 legs");
     }
     
-    /***
-     * Override method for Tiger Diet
-     */
-    @Override
-    public void diet() {
-        System.out.println("I'm a Carnivore");
-    }
+   
 
     
 }
