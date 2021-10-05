@@ -2,6 +2,8 @@
 
 > Welcome to our Zoo! 
 
+[![Known Vulnerabilities](https://snyk.io/test/github/denisecase/Zoo04Lab/badge.svg)](https://snyk.io/test/github/denisecase/Zoo04Lab)
+
 ## 4 Principles of Objectf-Oriented Programming (OOP)
 
 - Encapsulation. Wrap code in good interfaces. Hide private data, expose publicly accessible methods.
