@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.nikhilporika04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -28,6 +28,16 @@ public class Dalmatian extends Animal {
     @Override
     public void eat() {
         System.out.println("I am Dalmatian I can eat all the vegtables ");
+    }
+
+    @Override
+    public void speak() {
+        System.out.println("I am Dalmatian I can speak ");
+    }
+
+    @Override
+    public void move() {
+        System.out.println("I am Dalmatian I can move ");
     }
 
     @Override
