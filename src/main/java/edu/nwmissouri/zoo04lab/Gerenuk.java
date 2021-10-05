@@ -26,7 +26,7 @@ public class Gerenuk extends Animal {
    @Override
    public void move()
    {
-       System.err.println("I can move with four legs");
+       System.out.println("I can move with four legs");
    }
   
     public void size()
