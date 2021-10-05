@@ -75,7 +75,7 @@ public class ZooBuildSwitch {
                     //System.out.println("3. Bearcats");
                     // write code below.....
                    //System.out.println("case " + n++ + " -> {");
-                    System.out.println(n++ +". "+justName );
+                    System.out.println("System.out.println(\""+ n++ +". "+justName.replace("Group","")+"\");" );
                 }
             }
         }
