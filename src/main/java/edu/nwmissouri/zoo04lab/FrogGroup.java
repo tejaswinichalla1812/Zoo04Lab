@@ -8,7 +8,17 @@ import java.util.ArrayList;
  */
 public class FrogGroup {
     private static ArrayList<Frog> grp;
+<<<<<<< HEAD
    public static int create()
+=======
+
+    /**
+     *
+     * @return
+     * returns create method
+     */
+    public static int create()
+>>>>>>> ee703a6e2485b405699ae92745dc350958e0f0ac
    {
        grp=new ArrayList<>();
        Frog f=new Frog("poison");
@@ -17,6 +27,14 @@ public class FrogGroup {
        grp.add(new Frog("kaloula"));
        return grp.size();
    }
+<<<<<<< HEAD
+=======
+
+    /**
+     *
+     *runs the Frog attributes
+     */
+>>>>>>> ee703a6e2485b405699ae92745dc350958e0f0ac
     public static void run()
    {
        System.out.println("My animal is Frog");
@@ -33,5 +51,11 @@ public class FrogGroup {
    }
 
    
+<<<<<<< HEAD
 
+=======
+   
+    
+    
+>>>>>>> ee703a6e2485b405699ae92745dc350958e0f0ac
 }
