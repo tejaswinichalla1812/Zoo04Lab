@@ -19,7 +19,7 @@ public class ZooApp {
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
     // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
-    private static final int NUMBER_ANIMAL_TYPES = 7;
+    private static final int NUMBER_ANIMAL_TYPES = 9;
 
     /**
      * This main() method is the entry point for our application.
@@ -63,6 +63,8 @@ public class ZooApp {
                 System.out.println("5. Duck");
                 System.out.println("6. Floppy");
                 System.out.println("7. Griffin");
+                System.out.println("8. MightyLion");
+                System.out.println("9. Xraytetra");
 
                 try {
                     typeNumberInput = scanner.nextInt();
@@ -102,6 +104,14 @@ public class ZooApp {
                     case 7 -> {
                         GriffinGroup.create();
                         GriffinGroup.run();
+                    }
+                    case 8 -> {
+                        MightyLionGroup.create();
+                        MightyLionGroup.run();
+                    }
+                    case 9 -> {
+                        XraytetraGroup.create();
+                        XraytetraGroup.run();
                     }
                     default -> {
                     }
