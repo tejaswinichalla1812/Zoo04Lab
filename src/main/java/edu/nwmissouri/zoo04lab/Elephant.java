@@ -7,7 +7,7 @@ package edu.nwmissouri.zoo04lab;
 
 /**
  *
- * @author Homakesavadurgaprasad OMTRI
+ * @author Homakesavadurgaprasad OMTRI (S544929)
  */
 public class Elephant extends Animal {
 
