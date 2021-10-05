@@ -24,11 +24,15 @@ public class Gerenuk extends Animal {
         System.out.println("I am an Gerenuk "+this.name);
     }
    @Override
+   public void move()
+   {
+       System.out.println("I can move with four legs");
+   }
+  
     public void size()
     {
         System.out.println("140 to 160 CENTIMETERS");
     }
-   @Override
     public void place()
     {
         System.out.println("Exists in Kenya");
