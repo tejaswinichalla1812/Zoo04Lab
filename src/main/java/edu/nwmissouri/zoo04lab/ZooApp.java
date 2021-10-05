@@ -56,6 +56,7 @@ public class ZooApp {
                 // TODO: NEED TO AUTOUPDATE THE MENU *************
                 System.out.println("What animals would you like to see?");
                 System.out.println("Enter a number to choose, 0 to exit.");
+
                 System.out.println("1. Aardvark");
                 System.out.println("2. Asp");
                 System.out.println("3. Bearcat");
@@ -70,6 +71,8 @@ public class ZooApp {
                 System.out.println("12. Rabbit");
                 System.out.println("13. Shoebill");
                 System.out.println("14. Xraytetra");
+
+
                 try {
                     typeNumberInput = scanner.nextInt();
                 } catch (Exception ex) {
@@ -81,6 +84,7 @@ public class ZooApp {
 
                 // switch by animal type - autogenerate with ZooBuildSwitch.java
                 switch (typeNumberInput) {
+
                     case 1 -> {
                         AardvarkGroup.create();
                         AardvarkGroup.run();
@@ -136,7 +140,7 @@ public class ZooApp {
                     case 14 -> {
                         XraytetraGroup.create();
                         XraytetraGroup.run();
-                    }
+                    
                     default -> {
                     }
 
