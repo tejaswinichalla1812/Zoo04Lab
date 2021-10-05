@@ -70,12 +70,9 @@
                 <version>3.8.1</version>
                 <configuration>
                     <excludes>
-                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>                        
                         <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
@@ -102,12 +99,9 @@
                     <destDir>docs</destDir>
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
                     <sourceFileExcludes>              
-                        <exclude>edu/nwmissouri/zoo04lab/Abyssinian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/ArizonaJaguar.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/BengalTiger.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Brachiosaurus.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Cheetah.java</exclude>
-                        <exclude>edu/nwmissouri/zoo04lab/CongoLion.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Crocodile.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Dalmatian.java</exclude>
                         <exclude>edu/nwmissouri/zoo04lab/Deer.java</exclude>
