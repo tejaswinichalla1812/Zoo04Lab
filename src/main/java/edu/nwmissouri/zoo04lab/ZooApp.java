@@ -19,7 +19,7 @@ public class ZooApp {
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
     // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
-    private static final int NUMBER_ANIMAL_TYPES = 10;
+    private static final int NUMBER_ANIMAL_TYPES = 14;
 
     /**
      * This main() method is the entry point for our application.
