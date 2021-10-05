@@ -19,7 +19,7 @@ public class ZooApp {
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
     // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
-    private static final int NUMBER_ANIMAL_TYPES = 14;
+    private static final int NUMBER_ANIMAL_TYPES = 15;
 
     /**
      * This main() method is the entry point for our application.
@@ -62,16 +62,16 @@ public class ZooApp {
                 System.out.println("3. Bearcat");
                 System.out.println("4. Cow");
                 System.out.println("5. Crocodile");
-                System.out.println("6. Duck");
-                System.out.println("7. Floppy");
-                System.out.println("8. Griffin");
-                System.out.println("9. Kangaroov");
-                System.out.println("10. Liger");
-                System.out.println("11. MightyLion");
-                System.out.println("12. Rabbit");
-                System.out.println("13. Shoebill");
-                System.out.println("14. Xraytetra");
-
+                System.out.println("6. Dalmatian");
+                System.out.println("7. Duck");
+                System.out.println("8. Floppy");
+                System.out.println("9. Griffin");
+                System.out.println("10. Kangaroov");
+                System.out.println("11. Liger");
+                System.out.println("12. MightyLion");
+                System.out.println("13. Rabbit");
+                System.out.println("14. Shoebill");
+                System.out.println("15. Xraytetra");
 
                 try {
                     typeNumberInput = scanner.nextInt();
@@ -106,41 +106,45 @@ public class ZooApp {
                         CrocodileGroup.run();
                     }
                     case 6 -> {
+                        DalmatianGroup.create();
+                        DalmatianGroup.run();
+                    }
+                    case 7 -> {
                         DuckGroup.create();
                         DuckGroup.run();
                     }
-                    case 7 -> {
+                    case 8 -> {
                         FloppyGroup.create();
                         FloppyGroup.run();
                     }
-                    case 8 -> {
+                    case 9 -> {
                         GriffinGroup.create();
                         GriffinGroup.run();
                     }
-                    case 9 -> {
+                    case 10 -> {
                         KangaroovGroup.create();
                         KangaroovGroup.run();
                     }
-                    case 10 -> {
+                    case 11 -> {
                         LigerGroup.create();
                         LigerGroup.run();
                     }
-                    case 11 -> {
+                    case 12 -> {
                         MightyLionGroup.create();
                         MightyLionGroup.run();
                     }
-                    case 12 -> {
+                    case 13 -> {
                         RabbitGroup.create();
                         RabbitGroup.run();
                     }
-                    case 13 -> {
+                    case 14 -> {
                         ShoebillGroup.create();
                         ShoebillGroup.run();
                     }
-                    case 14 -> {
+                    case 15 -> {
                         XraytetraGroup.create();
                         XraytetraGroup.run();
-                    
+                    }
                     default -> {
                     }
 
