@@ -154,14 +154,12 @@ public class ZooApp {
             } while (isValid);
 
             // close the if loop
-        }
-
-        // Prompt for adventures: ask if they want to try an adventure
-//        System.out.println("Do you want to go on an adventure (y/n)?");
-//        var adventureInterestInput = scanner.next();
-//        if (adventureInterestInput.toUpperCase().startsWith("Y")) {
-//            System.out.println("Sorry - this option is not yet available.");
-//        }
+        } // Prompt for adventures: ask if they want to try an adventure
+        //        System.out.println("Do you want to go on an adventure (y/n)?");
+        //        var adventureInterestInput = scanner.next();
+        //        if (adventureInterestInput.toUpperCase().startsWith("Y")) {
+        //            System.out.println("Sorry - this option is not yet available.");
+        //        }
         // output goodbye
         System.out.println(GOODBYE_MESSAGE);
 
