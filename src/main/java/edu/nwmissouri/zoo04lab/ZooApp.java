@@ -19,7 +19,7 @@ public class ZooApp {
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
     // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
-    private static final int NUMBER_ANIMAL_TYPES = 9;
+    private static final int NUMBER_ANIMAL_TYPES = 10;
 
     /**
      * This main() method is the entry point for our application.
@@ -60,11 +60,12 @@ public class ZooApp {
                 System.out.println("2. Asp");
                 System.out.println("3. Bearcat");
                 System.out.println("4. Cow");
-                System.out.println("5. Duck");
-                System.out.println("6. Floppy");
-                System.out.println("7. Griffin");
-                System.out.println("8. MightyLion");
-                System.out.println("9. Xraytetra");
+                System.out.println("5. Crocodile");
+                System.out.println("6. Duck");
+                System.out.println("7. Floppy");
+                System.out.println("8. Griffin");
+                System.out.println("9. MightyLion");
+                System.out.println("10. Xraytetra");
 
                 try {
                     typeNumberInput = scanner.nextInt();
@@ -94,22 +95,26 @@ public class ZooApp {
                         CowGroup.run();
                     }
                     case 5 -> {
+                        CrocodileGroup.create();
+                        CrocodileGroup.run();
+                    }
+                    case 6 -> {
                         DuckGroup.create();
                         DuckGroup.run();
                     }
-                    case 6 -> {
+                    case 7 -> {
                         FloppyGroup.create();
                         FloppyGroup.run();
                     }
-                    case 7 -> {
+                    case 8 -> {
                         GriffinGroup.create();
                         GriffinGroup.run();
                     }
-                    case 8 -> {
+                    case 9 -> {
                         MightyLionGroup.create();
                         MightyLionGroup.run();
                     }
-                    case 9 -> {
+                    case 10 -> {
                         XraytetraGroup.create();
                         XraytetraGroup.run();
                     }
