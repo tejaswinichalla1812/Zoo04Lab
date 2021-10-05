@@ -64,9 +64,12 @@ public class ZooApp {
                 System.out.println("6. Duck");
                 System.out.println("7. Floppy");
                 System.out.println("8. Griffin");
-                System.out.println("9. MightyLion");
-                System.out.println("10. Xraytetra");
-
+                System.out.println("9. Kangaroov");
+                System.out.println("10. Liger");
+                System.out.println("11. MightyLion");
+                System.out.println("12. Rabbit");
+                System.out.println("13. Shoebill");
+                System.out.println("14. Xraytetra");
                 try {
                     typeNumberInput = scanner.nextInt();
                 } catch (Exception ex) {
@@ -111,10 +114,26 @@ public class ZooApp {
                         GriffinGroup.run();
                     }
                     case 9 -> {
+                        KangaroovGroup.create();
+                        KangaroovGroup.run();
+                    }
+                    case 10 -> {
+                        LigerGroup.create();
+                        LigerGroup.run();
+                    }
+                    case 11 -> {
                         MightyLionGroup.create();
                         MightyLionGroup.run();
                     }
-                    case 10 -> {
+                    case 12 -> {
+                        RabbitGroup.create();
+                        RabbitGroup.run();
+                    }
+                    case 13 -> {
+                        ShoebillGroup.create();
+                        ShoebillGroup.run();
+                    }
+                    case 14 -> {
                         XraytetraGroup.create();
                         XraytetraGroup.run();
                     }
