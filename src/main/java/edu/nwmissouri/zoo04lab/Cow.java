@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.HarikaChintala04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -18,7 +18,7 @@ public class Cow extends Animal{
     public Cow(String name){
         super(name);
     }
-     @Override
+     //@Override
     public void eat(){
         System.out.println(" I eat like Yumm yumm yumm!!");
     }
@@ -26,12 +26,16 @@ public class Cow extends Animal{
     public void speak(){
         System.out.println(" I am a Cow.. "+this.name);
     }
-    @Override
+    //@Override
     public void child(){
         System.out.println(" I can give birth to one child at once");
     }
-     @Override
+     //@Override
     public void color(){
         System.out.println("I can be in black, brown and white color ");
+    }
+    @Override
+    public void move() {
+        System.out.println("When I move, I move, move, move...");
     }
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Srilekha04lab;
+package edu.nwmissouri.Zoo04lab;
 
 /**
  *
@@ -17,14 +17,14 @@ public class Cheetah extends Animal {
     public Cheetah(String name){
         super(name);
     }
-     @Override
+   
     public void move() {
         System.out.println("When I move,I walk, walk, walk.");//To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
+
     public void speak() {
-        System.out.println("I'm an cheetah! "+this.name+" is my petname");//To change body of generated methods, choose Tools | Templates.
+        System.out.println("I'm an cheetah! "+" is my petname");//To change body of generated methods, choose Tools | Templates.
     }
     
     

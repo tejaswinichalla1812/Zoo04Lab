@@ -3,8 +3,8 @@ package edu.nwmissouri.zoo04lab;
 import java.util.Scanner;
 
 /**
- * ZooApp is a Zoo simulation created by 542 Section 05. 
- * 
+ * ZooApp is a Zoo simulation created by 542 Section 05.
+ *
  * @author Dr. Case and others
  */
 public class ZooApp {
@@ -18,12 +18,12 @@ public class ZooApp {
     // Specify goodbye string
     private static final String GOODBYE_MESSAGE = "Thank you for visiting our zoo!";
 
-    // specify number of  animal types available
-    private static final int NUMBER_ANIMAL_TYPES = 1;
+    // specify number of  animal types available - TODO: NEED TO AUTOUPDATE****
+    private static final int NUMBER_ANIMAL_TYPES = 4;
 
     /**
-     * This main() method is the entry point for our application. 
-     * 
+     * This main() method is the entry point for our application.
+     *
      * @param args - inputs provided to the program (none required)
      */
     public static void main(String[] args) {
@@ -53,25 +53,40 @@ public class ZooApp {
             // do the list prompt for the first time, loop back while valid
             do {
                 // Prompt for type: ask if they want to see animals
+                // TODO: NEED TO AUTOUPDATE THE MENU *************
                 System.out.println("What animals would you like to see?");
                 System.out.println("Enter a number to choose, 0 to exit.");
-                System.out.println("1. Aardvarks");
+                System.out.println("1. Aardvark");
+                System.out.println("2. Asp");
+                System.out.println("3. Bearcat");
+                System.out.println("4. Floppy");
 
                 try {
                     typeNumberInput = scanner.nextInt();
-                }
-                catch (Exception ex){
+                } catch (Exception ex) {
                     typeNumberInput = 0;
                 }
 
                 // set isValid if >= 1 and <= number of animal types
                 isValid = typeNumberInput >= 1 && typeNumberInput <= NUMBER_ANIMAL_TYPES;
 
-                // switch by animal type
+                // switch by animal type - autogenerate with ZooBuildSwitch.java
                 switch (typeNumberInput) {
-                    case 1 -> {             
+                    case 1 -> {
                         AardvarkGroup.create();
                         AardvarkGroup.run();
+                    }
+                    case 2 -> {
+                        AspGroup.create();
+                        AspGroup.run();
+                    }
+                    case 3 -> {
+                        BearcatGroup.create();
+                        BearcatGroup.run();
+                    }
+                    case 4 -> {
+                        FloppyGroup.create();
+                        FloppyGroup.run();
                     }
                     default -> {
                     }
@@ -90,7 +105,6 @@ public class ZooApp {
 //        if (adventureInterestInput.toUpperCase().startsWith("Y")) {
 //            System.out.println("Sorry - this option is not yet available.");
 //        }
-
         // output goodbye
         System.out.println(GOODBYE_MESSAGE);
 

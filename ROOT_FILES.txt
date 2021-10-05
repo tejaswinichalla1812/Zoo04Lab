@@ -10,3 +10,4 @@ nbactions.xml
 LICENSE.md
 README.md
 ROOT_FILES.txt
+SOURCE_NON_ANIMAL_FILES.txt
