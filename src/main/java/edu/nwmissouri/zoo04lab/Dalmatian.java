@@ -21,27 +21,13 @@ public class Dalmatian extends Animal {
     }
 
     @Override
-    public void run() {
-        System.out.println("I am Dalmatian I can run very fast");
-    }
-
-    @Override
-    public void eat() {
-        System.out.println("I am Dalmatian I can eat all the vegtables ");
-    }
-
-    @Override
     public void speak() {
-        System.out.println("I am Dalmatian I can speak ");
+        System.out.println("I am Dalmatian,I can speak");
     }
 
     @Override
     public void move() {
-        System.out.println("I am Dalmatian I can move ");
+        System.out.println("I am Dalmatian,I can run, run , run");
     }
 
-    @Override
-    public void jump() {
-        System.out.println("I am Dalmatian I can jump at very fall distance");
-    }
 }
