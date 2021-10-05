@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.nwmissouri.Homakesavadurgaprasad04lab;
+package edu.nwmissouri.zoo04lab;
 
 /**
  *
@@ -34,15 +34,7 @@ public class Elephant extends Animal {
      * This is used to print Animal food
      *
      */
-    @Override
-    public void eat() {
-        System.out.println(" Grasses and sedges are my favourite food! ");
-    }
 
-    /**
-     * This is used to print walking style of animal
-     *
-     */
     @Override
     public void move() {
         System.out.println(" I could not able to swim in water but would like to walk! ");
