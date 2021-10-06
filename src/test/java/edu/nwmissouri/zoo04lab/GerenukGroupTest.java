@@ -13,8 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class GerenukGroupTest {
    
-    public GerenukGroupTest() {
-    }
+
 
     @BeforeAll
     public static void setUpClass() {
@@ -49,7 +48,7 @@ public class GerenukGroupTest {
     public void testGroupRun() {
         GerenukGroup.create();
         GerenukGroup.run();
-        assertTrue(true);
+        
     }
 
 }
