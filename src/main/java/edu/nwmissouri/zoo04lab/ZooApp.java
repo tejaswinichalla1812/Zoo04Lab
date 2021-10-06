@@ -126,8 +126,8 @@ public class ZooApp {
                         KangaroovGroup.run();
                     }
                     case 11 -> {
-                        LigerGroup.create();
-                        LigerGroup.run();
+//                        LigerGroup.create();
+//                        LigerGroup.run();
                     }
                     case 12 -> {
                         MightyLionGroup.create();
