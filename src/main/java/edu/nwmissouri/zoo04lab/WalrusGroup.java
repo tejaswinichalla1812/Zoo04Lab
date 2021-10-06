@@ -37,7 +37,8 @@ public class WalrusGroup {
             Walrus.move();
         });
         System.out.println("Nice Walrus ");
-        System.out.println("*********************************");
+        
+        System.out.println("*******************************");
     }
 
 }
