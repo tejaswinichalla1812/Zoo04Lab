@@ -17,19 +17,13 @@ public class SiberianTiger extends Animal{
 
     /*thi is roar method*/
     @Override
-    public  void roar() {
+    public  void speak() {
         System.out.println("I'm a Tiger, my roar can be heard as far as 1.8 miles (3 km) away");
     }
 
     /*this is Run method*/
     @Override
-    public void Run() {
+    public void move() {
         System.out.println("I can Run 80 kilometers per hour (km/h)");
-    }
-
-    /*this is sleep method */
-    @Override
-    public void sleep() {
-        System.out.println("I can sleep 16hrs A/Day");
     }
     }
