@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Homakesavadurgaprasad OMTRI
+ * @author Homakesavadurgaprasad OMTRI (S544929)
  */
 public class ElephantGroup {
     
