@@ -21,7 +21,7 @@ public class FrogGroup {
        grp=new ArrayList<>();
        Frog f=new Frog("poison");
        grp.add(f);
-       grp.add(new Frog("glass"));
+       grp.add(new Frog("glassy"));
        grp.add(new Frog("kaloula"));
        return grp.size();
    }
