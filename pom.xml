@@ -71,11 +71,8 @@
                 <configuration>
                     <excludes>     
                         <exclude>edu/nwmissouri/zoo04lab/BlackJaguarGroup.java</exclude>   
-                        <exclude>edu/nwmissouri/zoo04lab/SiberianTigerGroup.java</exclude>                           
-                        <exclude>LigerGroup.java</exclude>  
-                        <exclude>ProngHornGroup.java</exclude>  
-                        <exclude>TauntingTigerGroup.java</exclude>  
-                        <exclude>UnicornGroup.java</exclude>  
+                        <exclude>edu/nwmissouri/zoo04lab/Unicorn.java</exclude>    
+                        <exclude>edu/nwmissouri/zoo04lab/UnicornGroup.java</exclude>                           
                     </excludes>
                 </configuration>
             </plugin>
@@ -89,11 +86,8 @@
                     <sourcepath>${basedir}/src/main/java/</sourcepath>
                     <sourceFileExcludes>     
                         <exclude>edu/nwmissouri/zoo04lab/BlackJaguarGroup.java</exclude>   
-                        <exclude>edu/nwmissouri/zoo04lab/SiberianTigerGroup.java</exclude>                           
-                        <exclude>LigerGroup.java</exclude>  
-                        <exclude>ProngHornGroup.java</exclude>  
-                        <exclude>TauntingTigerGroup.java</exclude>  
-                        <exclude>UnicornGroup.java</exclude>                  
+                        <exclude>edu/nwmissouri/zoo04lab/Unicorn.java</exclude>    
+                        <exclude>edu/nwmissouri/zoo04lab/UnicornGroup.java</exclude>                   
                     </sourceFileExcludes>
                 </configuration>
             </plugin> 
