@@ -5,27 +5,31 @@
  */
 package edu.nwmissouri.zoo04lab;
 /**
- *
- * @author Venkata Prabhakar Takkellapati
+ * This class defines the nature of the Emu animal
+ * @author Venkata Prabhakar Takkellapati (S545407)
  */
 public class Emu extends Animal {
-    
+    /**
+     * 
+     * @param name invoking name through constructor
+     */
     public Emu(String name) {
         super(name);
     }
 
-    
+    /**
+     * Determines the animal speak
+     */
     @Override
     public void speak() {
         System.out.println("This endangered species is native to the dense forests of the Congo!");
     }
-    
+    /**
+     * Determines the animal move
+     */
     @Override
     public void move() {
         System.out.println("they've become rare in the wild.");
-    }
-     @Override
-    public void look() {
-        System.out.println("Though striped like a zebra, it’s actually a smaller cousin to the giraffe.");
-    }
+    }    
+
 }
