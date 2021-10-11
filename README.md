@@ -30,8 +30,8 @@ Steps to update to Java 17:
 
 ### 1) Upgrade Netbeans
 
-- Uninstall 12.4 (program available)
-- Install 12.5
+- Uninstall 12.4 (program available in C:\Program Files\NetBeans-12.4)
+- Download and install 12.5
 
 ### 2) Upgrade Java
 
