@@ -42,7 +42,7 @@ Run the command to install Java 17. Must use --exact or -e.
 winget install Microsoft.OpenJDK.17 -e
 ```
 
-Verify location, e.g., C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot
+Verify location on your machine, e.g., C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot
 
 ### 3) Edit System Environment Variables (JAVA_HOME and path)
 
