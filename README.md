@@ -62,7 +62,7 @@ These have been updated. Find these in pom.xml:
 
 ### 5) NetBeans Project Compiler
 
-NetBeans / Project / Properties  / Build / Compile / Java Platform
+Open NetBeans. Right-click on our project / Project / Properties  / Build / Compile / Java Platform
 
 - Add / locate your new JDK 17 (mine is in  C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot)
 - Select JDK 17
