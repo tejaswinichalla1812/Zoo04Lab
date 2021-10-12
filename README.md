@@ -18,9 +18,9 @@ If running Java 11, make the following temporary changes to get the app to compi
 - Modify pom.xml java.version from 16 to 11.
 - Modify ZooApp.java: comment out the new switch statement 
 
-## Keeping Current: Upgrading to Java 17
+## Keep Current: Upgrade to Java 17
 
-Steps to update to Java 17:
+5 steps to update to Java 17 (details below):
 
 1. Netbeans -> 12.5 
 2. Java -> 17 
