@@ -50,7 +50,7 @@ Windows path must have exactly one JDK entry.
 
 - Hit Win key, Edit System Environment Variables. 
 - Verify/add JAVA_HOME (mine is C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot)
-- Verify path includes %JAVA_HOME%/bin
+- Verify path includes exactly one Java entry - either %JAVA_HOME%\bin OR C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot\bin and no other JDK or Java entries. 
 
 ### 4) pom.xml  
 
