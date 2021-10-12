@@ -11,21 +11,20 @@
 - Codacy checks our code for common 'code smells' and recommends improvements.
 - Click the badges to learn more. 
 
-## Java 16 (soon to be Version 17)
+## API
 
-If running Java 11, make the following temporary changes to get the app to compile:
+- Explore API at <https://denisecase.github.io/Zoo04Lab/edu/nwmissouri/zoo04lab/package-summary.html>
 
-- Modify pom.xml java.version from 16 to 11.
-- Modify ZooApp.java: comment out the new switch statement 
+-----
 
-## Keep Current: Upgrade to Java 17
+## Keep Current - Upgrade to Java 17
 
-5 steps to update to Java 17 (details below):
+5 steps to update (details below):
 
 1. Netbeans -> 12.5 
 2. Java -> 17 
 3. Windows Edit System Environment Variables (JAVA_HOME, path)
-4. pom.xml (already done - check our current versions)
+4. pom.xml (already complete - verify our current versions)
 5. IDE project settings -> set compile to JDK 17
 
 ### 1) Upgrade Netbeans
@@ -38,7 +37,7 @@ If running Java 11, make the following temporary changes to get the app to compi
 Open Powershell as Admin and run this command to install Java 17. Must use --exact or -e.
 (winget works with install / upgrade / uninstall).
 
-```
+```Powershell
 winget install Microsoft.OpenJDK.17 -e
 ```
 
@@ -62,10 +61,14 @@ These have been updated. Find these in pom.xml:
 
 ### 5) NetBeans Project Compiler
 
-Open NetBeans. Right-click on our Project / Properties  / Build / Compile / Java Platform
+Open NetBeans. Right-click our Project / Properties  / Build / Compile / Java Platform
 
-- Add / locate your new JDK 17 (mine is in  C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot)
-- Select JDK 17
+- click "Manage Java Platforms", click "Add Platform", Type = Java Std Edition / Next 
+- Locate your new JDK 17 (mine is in  C:\Program Files\Microsoft\jdk-17.0.0.35-hotspot), click Next. It will fill in the information. Click Finish, Close.
+- Back in the Java Platform dropdown, Select JDK 17. 
+- Clean and build project to verify everything compiles. Try running ZooApp to verify.
+
+-----
 
 ## 4 Principles of Object-Oriented Programming (OOP)
 
@@ -81,7 +84,3 @@ Open NetBeans. Right-click on our Project / Properties  / Build / Compile / Java
 - Liskov Substitution Principle. Use derived class just like base.
 - Interface Segregation Principle. Many client-specific interfaces.
 - Dependency Inversion Principle. Depend on abstract rather than concrete.
-
-## API
-
-- Explore API at <https://denisecase.github.io/Zoo04Lab/edu/nwmissouri/zoo04lab/package-summary.html>
