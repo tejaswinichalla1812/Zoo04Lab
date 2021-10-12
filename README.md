@@ -35,7 +35,7 @@ Steps to update to Java 17:
 
 ### 2) Upgrade Java
 
-Run the command to install Java 17. Must use --exact or -e.
+Open Powershell as Admin and run this command to install Java 17. Must use --exact or -e.
 (winget works with install / upgrade / uninstall).
 
 ```
