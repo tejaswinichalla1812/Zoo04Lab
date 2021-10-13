@@ -50,6 +50,7 @@ public class TauntingTiger extends Animal {
            TauntingTiger tommy = new TauntingTiger("tommy");
            for(int i =0;i<4;i++){
            tommy.eat();
+           tommy.eat();
            tommy.speak();
            tommy.move();
            tommy.type();
