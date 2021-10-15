@@ -37,5 +37,11 @@ public class Gerenuk extends Animal {
     {
         System.out.println("Exists in Kenya");
     }
-    
+     public static void main(String[] args) {
+        var a = new Aardvark("Tester");
+        a.speak();
+        a.move();
+        a.profess();
+    }
+
 }
