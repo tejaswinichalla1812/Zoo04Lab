@@ -63,6 +63,17 @@ public class Floppy extends Animal {
         return valueOne + valueTwo;
     }
 
+    public enum Planet {
+        MERCURY,
+        VENUS,
+        EARTH,
+        MARS,
+        JUPITER,
+        SATURN,
+        URANUS,
+        NEPTUNE;
+    }
+
     public static void main(String[] args) {
         Floppy floppy = new Floppy("Satheesh");
         floppy.speak();
@@ -70,5 +81,8 @@ public class Floppy extends Animal {
         floppy.location();
         floppy.character();
         floppy.confess();
+        for (Planet planet : Planet.values()) {
+            System.out.println(planet);
+        }
     }
 }
