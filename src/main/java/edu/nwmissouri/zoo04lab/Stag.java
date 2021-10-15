@@ -40,7 +40,7 @@ public class Stag extends Animal{
     public static void main(String[] args) {
         var a = new Stag("Rahul");
         a.eat();
-        a.speak();//fff
+        a.speak();
         a.move();
         a.color();
     }
