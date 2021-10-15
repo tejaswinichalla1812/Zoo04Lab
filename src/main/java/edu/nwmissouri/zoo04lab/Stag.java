@@ -34,4 +34,12 @@ public class Stag extends Animal{
     public void color(){
         System.out.println("I'm brown in colour with white spots on me");
     }
+    
+    public static void main(String[] args) {
+        var a = new Stag("Rahul");
+        a.eat();
+        a.speak();
+        a.move();
+        a.color();
+    }
 }
