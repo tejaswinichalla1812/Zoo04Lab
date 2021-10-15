@@ -24,6 +24,13 @@ public class PolarBear extends Animal {
     public void speak() {
         System.out.printf("I'm %s. I'm an polarBear! \n",this.name);
     }
+    public static void main(String[] args) {
+        var a = new PolarBear("Tester");
+        a.speak();
+        a.move();
+        //a.profess();
+    }
+
     
     
 }
