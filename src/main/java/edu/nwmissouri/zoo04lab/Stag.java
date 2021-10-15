@@ -22,6 +22,8 @@ public class Stag extends Animal{
     public void eat(){
         System.out.println("I'm CARNIVOROUS, I eat grass.");
     }
+
+
     @Override
     public void speak(){
         System.out.println("I'm a STAG, I have LONG HORNS! My name is "+this.name);
@@ -39,7 +41,7 @@ public class Stag extends Animal{
         var a = new Stag("Rahul");
         a.eat();
         a.speak();
-        a.move();
+        a.move();///fffff
         a.color();
     }
 }
