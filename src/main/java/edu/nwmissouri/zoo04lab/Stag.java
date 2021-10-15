@@ -41,7 +41,7 @@ public class Stag extends Animal{
         var a = new Stag("Rahul");
         a.eat();
         a.speak();
-        a.move();///fffff
+        a.move();
         a.color();
     }
 }
