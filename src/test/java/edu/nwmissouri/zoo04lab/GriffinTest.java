@@ -188,7 +188,6 @@ public class GriffinTest {
         var grif = new Griffin("Griffo");
         NumberParity result = grif.calculateSumParity(first, second);
 
-        // assertEquals(expected, actual);
         assertEquals(expected, result);
     }
 }
