@@ -68,112 +68,112 @@ public class GriffinTest {
         assertEquals(expected, actual);
     }
 
-    /** 
+    /**
      * Test custom function getName()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetName() throws Exception {
         // set up testing variables
         String expected = "Griffo";
-        var grif = new Griffin( expected);
+        var grif = new Griffin(expected);
         String testName = grif.getName();
-        
-        assertEquals( expected, testName);
+
+        assertEquals(expected, testName);
     }
-    
-     /** 
+
+    /**
      * Test custom function getSpeciesName()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetSpeciesName() throws Exception {
         // set up testing variables
         String expected = "Griffin";
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         String resultingData = grif.getSpeciesName();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-    /** 
+
+    /**
      * Test custom function getLatinName()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetLatinName() throws Exception {
         // set up testing variables
         String expected = "grȳpus";
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         String resultingData = grif.getLatinName();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-    /** 
+
+    /**
      * Test custom function getLocationFound()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetLocationFound() throws Exception {
         // set up testing variables
         String expected = "Fantasy";
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         String resultingData = grif.getLocationFound();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-    /** 
+
+    /**
      * Test custom function getSleepDuration()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetSleepDuration() throws Exception {
         // set up testing variables
         int expected = 8;
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         int resultingData = grif.getSleepDuration();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-    /** 
+
+    /**
      * Test custom function getMovementSpeed()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetMovementSpeed() throws Exception {
         // set up testing variables
         int expected = 80;
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         int resultingData = grif.getMovementSpeed();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-    /** 
+
+    /**
      * Test custom function getIsExtinct()
-     * 
+     *
      * @throws Exception
      */
     @Test
     public void testGetIsExtinct() throws Exception {
         // set up testing variables
         boolean expected = true;
-        var grif = new Griffin( "Griffo");
+        var grif = new Griffin("Griffo");
         boolean resultingData = grif.getIsExtinct();
-        
-        assertEquals( expected, resultingData);
+
+        assertEquals(expected, resultingData);
     }
-    
-        /**
+
+    /**
      * Test custom function calculateSumParity()
      *
      * @throws Exception
@@ -184,9 +184,9 @@ public class GriffinTest {
         int first = 1;
         int second = 3;
         NumberParity expected = NumberParity.EVEN;
-        
+
         var grif = new Griffin("Griffo");
-        NumberParity result = grif.calculateSumParity( first, second);
+        NumberParity result = grif.calculateSumParity(first, second);
 
         // assertEquals(expected, actual);
         assertEquals(expected, result);
