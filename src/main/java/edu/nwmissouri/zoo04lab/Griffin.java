@@ -42,11 +42,11 @@ public class Griffin extends Animal {
         this.isExtinct = true;
     }
 
-    /**
-     * *****************************
+    /******************************
      * SUPERCLASS FUNCTION OVERRIDES
-     ******
-     */
+     *******/
+    
+    
     /**
      * speak() - Presents the types of sounds made by the Griffin
      */
@@ -64,11 +64,11 @@ public class Griffin extends Animal {
         System.out.println("I can walk but I really enjoy flying through the sky.");
     }
 
-    /**
-     * *****************************
+    
+    /******************************
      * GRIFFIN UNIQUE FUNCTIONS
-    ******
-     */
+     *******/
+    
     /**
      * getMyName() - Returns the animal's name
      *
@@ -160,8 +160,10 @@ public class Griffin extends Animal {
     }
 
     public static void main(String[] args) {
+        // Define testing instance of the class
         var g = new Griffin("Tester");
 
+        // Begin testing functions & print out result of each
         String myName = g.getName();
         System.out.println("Hello, my name is : " + myName + "!");
 
@@ -190,12 +192,14 @@ public class Griffin extends Animal {
 
         int firstNumber, secondNumber;
         Scanner scan = new Scanner(System.in);
+        // Prompt the user to input data for our calculation method
         System.out.println("\nDid you know Griffin's are really good at math too?");
         System.out.println(" - Give the griffin a number");
         firstNumber = scan.nextInt();
         System.out.println(" - Give the griffin a second number");
         secondNumber = scan.nextInt();
 
+        // Check our enum result and print out a response based on it
         NumberParity result = calculateSumParity(firstNumber, secondNumber);
         if (result == NumberParity.EVEN) {
             System.out.println(myName + " says that the sum of your numbers is EVEN!");
