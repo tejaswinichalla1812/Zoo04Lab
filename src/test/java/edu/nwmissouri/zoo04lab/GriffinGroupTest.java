@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * Test Aardvark Group.
- * 
+ *
  * @author Denise Case
  */
 public class GriffinGroupTest {
