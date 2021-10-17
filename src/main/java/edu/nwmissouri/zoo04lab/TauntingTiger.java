@@ -32,9 +32,22 @@ public class TauntingTiger extends Animal {
     public void move() {
         System.out.println("I hunt");
     }
+     /**
+     * This method returns value by multiplying two values
+     */
+    public double amul(double a,double b){
+        return a*b;
+    }
     /**
+     * This method returns value by adding two values
+     */
+     public double amuladd(double a,double b){
+        return a+b;
+    }
+     /**
      * This method is about the animal eating
      */
+    
     public void eat() {
         System.out.println("I eat meat");
     }
@@ -49,11 +62,15 @@ public class TauntingTiger extends Animal {
        public static void main(String[] args){
            TauntingTiger tommy = new TauntingTiger("tommy");
            for(int i =0;i<4;i++){
+           double a = 10;
+           double b = 5;
            tommy.eat();
            tommy.eat();
            tommy.speak();
            tommy.move();
            tommy.type();
+           System.out.println(tommy.amul(a, b));
+           System.out.println(tommy.amuladd(a, b));
            }
        }
     
