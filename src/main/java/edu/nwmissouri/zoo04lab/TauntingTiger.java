@@ -6,6 +6,14 @@
  */
 package edu.nwmissouri.zoo04lab;
 
+enum Nameofmonths{
+January,
+february,
+march,
+april,
+may;
+}
+
 /**
  * This Class extends Animal class
  * @author Sarath Arrepu
@@ -71,6 +79,7 @@ public class TauntingTiger extends Animal {
            tommy.type();
            System.out.println(tommy.amul(a, b));
            System.out.println(tommy.amuladd(a, b));
+           System.out.println("My Birthday is in May Month "+Nameofmonths.may);
            }
        }
     

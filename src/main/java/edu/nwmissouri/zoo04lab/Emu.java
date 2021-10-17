@@ -32,5 +32,4 @@ public class Emu extends Animal {
         System.out.println("they've become rare in the wild.");
     }    
     
-
 }
