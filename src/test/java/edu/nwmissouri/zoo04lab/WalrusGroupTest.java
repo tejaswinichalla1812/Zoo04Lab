@@ -13,13 +13,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Test Floppy Group.
- *
- * @author S545243 Satheesh Eppalapelli
+ * Test Walrus Group.
+ * 
+ * @Rehaman_Naguru_Abdur
  */
-public class FloppyGroupTest {
+public class WalrusGroupTest {
 
-    public FloppyGroupTest() {
+    public WalrusGroupTest() {
     }
 
     @BeforeAll
@@ -39,22 +39,22 @@ public class FloppyGroupTest {
     }
 
     /**
-     * Test of create method, of class FloppyGroup.
+     * Test of create method, of class WalrusGroup.
      */
     @Test
     public void testGroupCreate() {
         int expectedSize = 3;
-        int actualSize = FloppyGroup.create();
+        int actualSize = WalrusGroup.create();
         assertEquals(expectedSize, actualSize);
     }
 
     /**
-     * Test of run method, of class FloppyGroup.
+     * Test of run method, of class WalrusGroup.
      */
     @Test
     public void testGroupRun() {
-        FloppyGroup.create();
-        FloppyGroup.run();
+        WalrusGroup.create();
+        WalrusGroup.run();
         assertTrue(true);
     }
 
