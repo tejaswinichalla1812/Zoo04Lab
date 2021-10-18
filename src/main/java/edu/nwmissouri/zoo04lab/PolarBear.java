@@ -65,7 +65,7 @@ public class PolarBear extends Animal {
         a.speak();
         a.move();
         a.profess();
-        System.out.println("You know what i am "+myatrributes.iamPravallika);
+        System.out.println("You know what i am " + myatrributes.iamPravallika);
     }
 
     
