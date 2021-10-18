@@ -83,8 +83,8 @@ public class OkapiTest {
         double expected = 15.0;
 
         // call function to get the actual
-        var okapi = new Aardvark("Pranay");
-        double result = okapi.getAardvarkAddition(first, second);
+        var okapi = new Okapi("Pranay");
+        double result = okapi.getOkapiAddition(first, second);
 
         // assertEquals(expected, actual);
         assertEquals(expected, result);
