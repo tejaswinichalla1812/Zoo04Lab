@@ -33,6 +33,8 @@ public class DuckGroup {
         myGroup.forEach(Duck -> {
             Duck.speak();
             Duck.move();
+            Duck.eat();
+            Duck.studentDuck();
         });
         System.out.println("Nice Duck - that was fun!");
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
