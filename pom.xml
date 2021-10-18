@@ -2,13 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    
+    <!-- Moving to Web app use Spring as parent -->
+    
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
  
     <groupId>edu.nwmissouri</groupId>
     <artifactId>Zoo04Lab</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
- 
     <name>Zoo04Lab</name>
+    <description>Make our Zoo a Web app with Spring Boot (started with Spring Initialzr)</description>
+
     <url>http://www.example.com</url>
  
     <properties>
@@ -31,10 +41,31 @@
     </properties>
 
     <dependencies>
-        <!-- Dependencies -->
-    
+        <!-- Web App Dependencies -->
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-thymeleaf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+            <scope>runtime</scope>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     
         <!-- Testing dependencies-->
+        
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -63,6 +94,17 @@
     
     <build>
         <plugins>
+            
+            <!-- Add Spring Boot Maven plugin -->
+            <!-- To get Maven to package our web app as an executable jar -->
+            
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+            
+            <!-- Previous plugins (extra functionality) -->
+           
             <plugin>
                 <artifactId>maven-clean-plugin</artifactId>
                 <version>3.1.0</version>
