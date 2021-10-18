@@ -5,22 +5,25 @@
  */
 package edu.nwmissouri.zoo04lab;
 
+enum Places{
+    KERALA,
+    DELHI,
+    MANALI,
+    HYDERABAD,
+    CHENNAI,
+   
+}
 /**
  * Gerenuk class (derived subclass of the superclass Animal)
  *
  * @author Tejaswini Challa
  */
 public class Gerenuk extends Animal {
-   public Gerenuk(String name) 
-   {
-       super(name);
-   }
-
    
     /**
      * Gerenuk constructor
      *     
-     * @param name - the name of this generuk
+     * @param name - the name of this Gerenuk
      */
    public Gerenuk(String name)
    {
@@ -29,7 +32,7 @@ public class Gerenuk extends Animal {
     @Override
    public void speak()
     {
-        System.out.println("I am an Gerenuk "+this.name);
+        System.out.printf("I'm %s. I'm an Aardvark!", this.name);
     }
    @Override
    public void move()
@@ -48,7 +51,7 @@ public class Gerenuk extends Animal {
    public void profess() {
         double a = 2.5;
         int b = 2;
-        double c = getGerenuklAddition(a, b);
+        double c = getGerenukAddition(a, b);
         System.out.printf("I know GerenukAddition! %4.2f plus %d is %4.2f \n", a, b, c);
     }
 
@@ -69,32 +72,7 @@ public class Gerenuk extends Animal {
         a.speak();
         a.move();
         a.profess();
+        System.out.println("My favourite place is "+Places.HYDERABAD);
      }
     
-    public void profess() {
-        double a = 2.5;
-        int b = 2;
-        double c = getGerenuklAddition(a, b);
-        System.out.printf("I know GerenukAddition! %4.2f plus %d is %4.2f \n", a, b, c);
     }
-
-    /**
-     * Custom Gerenuk function - your class must use a unique function name
-     * unique first parameter identifier unique second parameter identifier do
-     * something creative
-     *
-     * @param valueOne double input
-     * @param valueTwo int input
-     * @return double sum
-     */
-    public double getGerenukAddition(double valueOne, int valueTwo) {
-        return valueOne + valueTwo;
-    }
-     public static void main(String[] args) {
-        var a = new Gerenuk("Tester");
-        a.speak();
-        a.move();
-        a.profess();
-    }
-
-}
