@@ -36,7 +36,8 @@ public class HarpSeal extends Animal{
     
     public void food(){
         System.out.println("I eat many types of fish and invertibrates.");
-    }
+    } 
+    
     
     
      public static void main(String[] args) {
@@ -45,7 +46,10 @@ public class HarpSeal extends Animal{
         a.move();
         a.funfacts();
         a.location();
-        a.food();
+        a.food(); 
+        
+        }
+        
 } 
-}
+
 
