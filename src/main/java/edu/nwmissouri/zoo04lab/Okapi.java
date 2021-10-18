@@ -65,7 +65,7 @@ public class Okapi extends Animal {
     {
     /**
      * The application's entry point
-     * This is the main method which makes use of addition,speak,move method.
+     * This is the main method which makes use of addition,speak,move method and enumerated types.
      * @param args an array of command-line arguments for the application
     */
 
