@@ -23,16 +23,11 @@ public class ZooBuildSwitch {
 
         // find the files that should be excluded
         ArrayList<String> ignoreList = getNonCustomAnimalFiles();
-        System.out.println("Ignore these:");
-        ignoreList.forEach(f -> System.out.println(f));
 
         // process all found files, outputing custom animal code
-        System.out.println("From all these in the package:");
         File fileFolder = new File(getCustomAnimalPackagePathString());
         String filesArray[] = fileFolder.list();
-        for (String s : filesArray) {
-            System.out.println(s);
-        }
+
         // create local variables for n and animalMap (a data structure)
         int n = 1;
         Map animalMap = new HashMap<Integer, String>();

@@ -316,9 +316,7 @@ public class ZooIndexController {
         // Put things back
         System.out.flush();
         System.setOut(old);
-        // Show what happened
         String stringOutput = newStream.toString();
-        System.out.println("Here: " + stringOutput);
         return stringOutput;
     }
 }
