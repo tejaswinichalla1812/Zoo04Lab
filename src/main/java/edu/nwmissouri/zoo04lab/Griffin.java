@@ -142,20 +142,11 @@ public class Griffin extends Animal {
     public static NumberParity calculateSumParity(int num1, int num2) {
         double sum = num1 + num2;
         double calc = sum;
-        System.out.println("Adding (" + num1 + " plus " + num2 + ") to get: " + sum);
-
-        boolean isEven = false;
-        while (calc >= 2) {
-            calc = (calc / 2);
+        
+        boolean isEven = true;
+        for(int i=0; i < sum; i ++) {
+            isEven = !isEven;
         }
-        isEven = (calc == 1.0);
-
-        // Some testing code we commented out for now
-        /*
-        String testText = (isEven) ? "EVEN" : "ODD";
-        System.out.println("Debug: Sum is " + sum 
-        + ", which we think is " + testText + " because calc = " + calc);
-         */
         return (isEven) ? NumberParity.EVEN : NumberParity.ODD;
     }
 
