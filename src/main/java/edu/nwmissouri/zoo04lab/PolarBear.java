@@ -5,9 +5,16 @@
  */
 package edu.nwmissouri.zoo04lab;
 
+enum myatrributes{
+iamtall,
+iambeautiful,
+iampretty,
+iamawesome,
+iamPravallika;
+}
 /**
  *PolarBear class (derived from subclass of superclass Animal)
- * @author Maddelavedu Pravallika
+ * @author Maddelavedu Pravallika(s545254)
  */
 public class PolarBear extends Animal {
     
@@ -29,7 +36,7 @@ public class PolarBear extends Animal {
     
     @Override
     public void speak() {
-        System.out.printf("I'm %s. I'm an polarBear! \n",this.name);
+        System.out.printf("I'm %s. I'm an PolarBear! \n",this.name);
     }
     
     public void profess() {
@@ -58,6 +65,7 @@ public class PolarBear extends Animal {
         a.speak();
         a.move();
         a.profess();
+        System.out.println("You know what i am "+myatrributes.iamshabana);
     }
 
     
