@@ -1,4 +1,3 @@
-
 package edu.nwmissouri.zoo04lab;
 
 import java.io.ByteArrayOutputStream;
@@ -12,11 +11,15 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 
+
 /**
  *Test ArvicolinaeTest using JUnit5
  * 
+ * 
  * @author NIKHIL KUMAR AKARAPU
  */
+
+//test class
 public class ArvicolinaeTest {
     
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
@@ -49,8 +52,8 @@ public class ArvicolinaeTest {
     @Test
     public void testSpeak() throws Exception {
         String expected = "I'm an Arvicolinae!";
-        var Arvicolinae = new Arvicolinae("Allie");
-        Arvicolinae.speak();
+        var arvicolinae = new Arvicolinae("Allie");
+        arvicolinae.speak();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
@@ -63,8 +66,8 @@ public class ArvicolinaeTest {
     @Test
     public void testMove() throws Exception {
         String expected = "When I move, I walk, walk, walk.";
-        var Arvicolinae = new Arvicolinae("Allie");
-        Arvicolinae.move();
+        var arvicolinae = new Arvicolinae("Allie");
+        arvicolinae.move();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
@@ -83,7 +86,7 @@ public class ArvicolinaeTest {
         double expected = 15.0;
 
         // call function to get the actual
-        var arvicolinae = new Arvicolinae("Allie");
+        var arvicolinae = new Arvicolinae("Nikhil");
         double actual = arvicolinae.getArvicolinaeAddition(first, second);
 
         // assertEquals(expected, actual);
