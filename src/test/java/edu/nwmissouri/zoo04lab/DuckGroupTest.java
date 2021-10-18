@@ -38,7 +38,7 @@ public class DuckGroupTest {
 
     /**
      * 
-     * Test of create method, of class DuckGroup.
+     * Test of create method of class DuckGroup.
      */
     @Test
     public void testGroupCreate() {

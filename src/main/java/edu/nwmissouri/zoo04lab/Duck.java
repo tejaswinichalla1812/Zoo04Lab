@@ -54,8 +54,8 @@ public class Duck extends Animal {
      public static void main(String[] args){
          Duck d = new Duck("Sandhya");
          d.speak();
-         d.eat();
          d.move();
+         d.eat();
          d.studentDuck();
      }
 }

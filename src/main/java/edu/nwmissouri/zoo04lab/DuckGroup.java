@@ -37,7 +37,7 @@ public class DuckGroup {
             Duck.studentDuck();
         });
         System.out.println("Nice Duck - that was fun!");
-        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+        System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
     }
 
 
