@@ -16,6 +16,7 @@ public class Gerenuk extends Animal {
        super(name);
    }
 
+   
     /**
      * Gerenuk constructor
      *     
@@ -44,6 +45,31 @@ public class Gerenuk extends Animal {
     {
         System.out.println("Exists in Kenya");
     }
+   public void profess() {
+        double a = 2.5;
+        int b = 2;
+        double c = getGerenuklAddition(a, b);
+        System.out.printf("I know GerenukAddition! %4.2f plus %d is %4.2f \n", a, b, c);
+    }
+
+    /**
+     * Custom Gerenuk function - your class must use a unique function name
+     * unique first parameter identifier unique second parameter identifier do
+     * something creative
+     *
+     * @param valueOne double input
+     * @param valueTwo int input
+     * @return double sum
+     */
+    public double getGerenukAddition(double valueOne, int valueTwo) {
+        return valueOne + valueTwo;
+    }
+     public static void main(String[] args) {
+        var a = new Gerenuk("Tester");
+        a.speak();
+        a.move();
+        a.profess();
+     }
     
     public void profess() {
         double a = 2.5;
