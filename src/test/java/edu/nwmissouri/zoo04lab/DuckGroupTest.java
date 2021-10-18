@@ -49,6 +49,7 @@ public class DuckGroupTest {
 
     /**
      * 
+     * 
      * Test of run method, of class DuckGroup.
      */
     @Test
