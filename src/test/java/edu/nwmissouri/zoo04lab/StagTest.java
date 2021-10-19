@@ -15,7 +15,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
- *
+ *Test Aardvark using JUnit5
+ * 
  * @author Rahul Konda
  */
 public class StagTest {
@@ -55,11 +56,13 @@ public class StagTest {
     }
 
     /**
-     * Test of speak method, of class Stag.
+     * Test speak method, of class Stag.
+     *
+     * @throws java.lang.Exception
      */
     @Test
     public void testSpeak() {
-        String expected = "I'm a STAG, I have LONG HORNS! My name is Rahul";
+        String expected = "I'm a STAG, I have LONG HORNS!";
         var stag = new Stag("Konda");
         stag.speak();
         String actual = outputStreamCaptor.toString().trim();
@@ -93,22 +96,26 @@ public class StagTest {
     /**
      * Test of main method, of class Stag.
      */
-    @Test
+    /*@Test
     public void testMain() {
         System.out.println("main");
         String[] args = null;
         Stag.main(args);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
-    }
+    }*/
     
+    /**
+     * 
+     * @throws Exception 
+     */
     @Test
     public void testStagAddition() throws Exception {
         
         // set up test, figure out expected by hand
-        double first = 5.0;
+        double first = 4.0;
         int second = 10;
-        double expected = 15.0;
+        double expected = 14.0;
 
         // call function to get the actual
         var stag = new Stag("Konda");
