@@ -125,7 +125,7 @@ public class RabbitTest {
         // set up test, figure out expected by hand
         double first = 6.0;
         int second = 5;
-        double expected = 10.0;
+        double expected = 11.0;
 
         // call function to get the actual
         var rabbit = new Rabbit("Tom");
