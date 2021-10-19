@@ -5,6 +5,11 @@ package edu.nwmissouri.zoo04lab;
  * @author Hemanth Sai Reddy Velamuri
  */
 public class BlackPanther extends Animal {
+  enum BIRD{
+    Eagle,
+    Sparrow,
+    Parrot
+  }
     
     /**
      * String declaration.
@@ -49,5 +54,10 @@ public class BlackPanther extends Animal {
         a.speak();
         a.move();
         a.profes();
+
+      BIRD B1 = BIRD.Eagle;
+      BIRD B2 = BIRD.Sparrow;
+      BIRD B3 = BIRD.Parrot;
+      System.out.println("BIRD :"+B2+" "+B2+" "+B3+".");
     }
 }
