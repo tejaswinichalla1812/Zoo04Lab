@@ -7,6 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -33,7 +34,8 @@ public class ZooBuildSwitch {
 
         // create local variables for n and animalMap (a data structure)
         int n = 1;
-        Map animalMap = new TreeMap<Integer, String>();
+        // keep keys in order with TreeMap and be thread safe for deployment
+        Map animalMap = Collections.synchronizedMap(new TreeMap<Integer, String>());
         
         // process the list and load the map
         for (String file : filesArray) {
