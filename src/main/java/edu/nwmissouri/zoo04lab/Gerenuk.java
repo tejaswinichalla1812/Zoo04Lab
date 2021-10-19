@@ -74,6 +74,7 @@ public class Gerenuk extends Animal {
      * Main method
      * @param args 
      */
+
      public static void main(String[] args) {
         var a = new Gerenuk("Tester");
         a.speak();
