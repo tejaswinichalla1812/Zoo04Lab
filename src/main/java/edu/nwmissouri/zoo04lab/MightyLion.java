@@ -6,8 +6,8 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
- * @author S545712
+ * This is the MightyLion class This class have move and speak method of Lion
+ * @author Vijay Kumar Chunchu(S545712)
  */
 public class MightyLion extends Animal {
      public MightyLion(String name){
@@ -22,6 +22,24 @@ public class MightyLion extends Animal {
     @Override
     public void speak() {
          System.out.printf("I am %s Lion. I will roar.\n", this.name);
+    }
+     
+     /*
+      * creating enum method
+      */
+     public enum Months {
+        JANUARY,
+        FEBRUARY,
+        MARCH,
+        APRIL,
+        MAY,
+        JUNE,
+        JULY,
+        AUGUST,
+        SEPTEMBER,
+        OCTOBER,
+        NOVEMBER,
+        DECEMBER;
     }
      
       public void profess() {
