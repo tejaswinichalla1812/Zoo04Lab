@@ -26,12 +26,7 @@ public class CatGroup {
 
         return myGroup.size();
     }
-    public enum Animal{
-        Arvicolinae,
-        Cat,
-        Cow, 
-    }
-
+    
     /**
      * Run (simulate) the group doing things
      */
@@ -45,7 +40,7 @@ public class CatGroup {
         });
         System.out.println("Nice cats - that was fun!");
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
-        String message= "Thank You for Choosing Me "+ Animal.Arvicolinae+"!.";
+        String message= "Thank You for Choosing Me !.";
         System.out.println(message);
         
     }
