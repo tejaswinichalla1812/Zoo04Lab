@@ -45,7 +45,7 @@ public class ElephantBird extends Animal {
         double a = 2.5;
         int b = 2;
         double c = getElephantBirdAddition(a,b);
-        System.out.printf("I know BlackPanther addition! %4.2f plus %d is %4.2f \n",a,b,c);
+        System.out.printf("I know ElephantBird addition! %4.2f plus %d is %4.2f \n",a,b,c);
     }
 
     double getElephantBirdAddition(double first, int second) {
