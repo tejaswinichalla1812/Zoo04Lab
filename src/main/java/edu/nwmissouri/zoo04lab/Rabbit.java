@@ -81,6 +81,9 @@ public class Rabbit extends Animal {
         par.skintype();
         par.color();
         par.cal();
+        for (FoodHabits foodhabit : FoodHabits.values()) {
+            System.out.println(foodhabit);
+        }
 
     }
 }
