@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * Provides methods to create and run a group of Cats
  *
- * @author Denise Case
+ * @author Maneesh Sake
  */
 public class CatGroup {
 
