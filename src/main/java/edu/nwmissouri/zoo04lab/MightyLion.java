@@ -42,10 +42,18 @@ public class MightyLion extends Animal {
         DECEMBER;
     }
      
+     /*
+     this is method of MightyLion Addition
+     */
+     
+       public double getMightyLionAddition(double valueOne, int valueTwo) {
+        return valueOne + valueTwo;
+    }
+     
       public void profess() {
         double a = 2.5;
         int b = 2;
-        double c = getMightyLionkAddition(a, b);
+        double c = getMightyLionAddition(a, b);
         System.out.printf("The MightyLionAddition is  %4.2f plus %d is %4.2f \n", a, b, c);
     }
 
@@ -57,9 +65,6 @@ public class MightyLion extends Animal {
         a.profess();
     }
 
-    private double getMightyLionkAddition(double a, int b) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
+ 
    
 }
