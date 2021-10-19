@@ -18,22 +18,19 @@ public class StringRay extends Animal {
     public StringRay(String name) {
         super(name);
     }
-    
-   /**
-   * Swim method
-   */
+
    // @Override
     public void swim() {
-        System.out.println("Generic animal swim");
+        System.out.println("I swim in water");
     }
 
     @Override
     public void move() {
-        System.out.println("Generic animal movement");
+        System.out.println("When I move I swim");
     }
     @Override
     public void speak() {
-        System.out.println("Generic animal voice");
+        System.out.println("I speak shhh..");
     }
     
     
