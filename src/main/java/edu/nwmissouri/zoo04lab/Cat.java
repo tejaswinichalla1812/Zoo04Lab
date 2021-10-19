@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo04lab;
 
 /**
  *
- * @author Maneesh7
+ * @author Maneesh Sake
  */
 public class Cat extends Animal {
 
@@ -42,14 +42,23 @@ public class Cat extends Animal {
      public double getCatAddition(double valueOne, int valueTwo) {
         return valueOne + valueTwo;
     }
+public enum Animal{
+        Arvicolinae,
+        Cat,
+        Cow, 
+    }
 
     public static void main(String[] args) {
         var a = new Cat("Tester");
         a.speak();
         a.move();
         a.profess();
+        Animal a1= Animal.Arvicolinae;
+        Animal a2=Animal.Cat;
+        Animal a3=Animal.Cow;
     }
 
 }
 
+    
     
