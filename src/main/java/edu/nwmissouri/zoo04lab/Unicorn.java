@@ -43,7 +43,7 @@ public class Unicorn extends Animal {
     }
 
     public double calculateAreaOfCircle(double radius) {
-        return Math.PI * Math.pow(radius, 2);
+        return Math.PI * radius *radius;
     }
 
     public double getAreaOfCircle() {
