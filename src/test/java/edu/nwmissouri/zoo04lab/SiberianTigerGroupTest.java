@@ -6,22 +6,22 @@ import java.util.ArrayList;
  *
  * @author Akhil Mulamalla
  */
-public class SiberianTigerGroup {
+public class SiberianTigerGroupTest {
 
-    private static ArrayList<SiberianTiger> mySiberianTigerGroup;
+    private static ArrayList<SiberianTigerTest> mySiberianTigerGroup;
 
     /**
-     * Create a static group of SiberianTiger
+     * Create a static group of SiberianTigerTest
      *
      * @return the number of animals in the group
      */
     public static int create() {
         mySiberianTigerGroup = new ArrayList<>();
         
-        SiberianTiger S = new SiberianTiger("SiberianTiger1");
+        SiberianTigerTest S = new SiberianTigerTest("SiberianTiger1");
         mySiberianTigerGroup.add(S);
-        mySiberianTigerGroup.add(new SiberianTiger("SiberianTiger2"));
-        mySiberianTigerGroup.add(new SiberianTiger("SiberianTiger3"));
+        mySiberianTigerGroup.add(new SiberianTigerTest("SiberianTiger2"));
+        mySiberianTigerGroup.add(new SiberianTigerTest("SiberianTiger3"));
 
         return mySiberianTigerGroup.size();
     }
@@ -35,7 +35,6 @@ public class SiberianTigerGroup {
         mySiberianTigerGroup.forEach(SiberianTiger -> {
             SiberianTiger.speak();
             SiberianTiger.move();
-            SiberianTiger.eat();
         });
         System.out.println("Nice SiberianTigers - they are cute");
         System.out.println("TTTTTTTTTTTTTTTTTTT");
