@@ -61,7 +61,7 @@ public class Gerenuk extends Animal {
         return valueOne + valueTwo;
     }
     /**
-     * Enum function with plant values
+     * enum function with plant values
      * 
      */
     public enum Gender {
@@ -87,4 +87,5 @@ public class Gerenuk extends Animal {
         System.out.println(gender);
      }
     
-    }
+     }
+}
