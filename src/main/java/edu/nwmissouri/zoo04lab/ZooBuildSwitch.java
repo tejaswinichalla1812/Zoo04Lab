@@ -7,8 +7,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 
 /**
@@ -33,7 +33,7 @@ public class ZooBuildSwitch {
 
         // create local variables for n and animalMap (a data structure)
         int n = 1;
-        Map animalMap = new HashMap<Integer, String>();
+        Map animalMap = new TreeMap<Integer, String>();
         
         // process the list and load the map
         for (String file : filesArray) {
