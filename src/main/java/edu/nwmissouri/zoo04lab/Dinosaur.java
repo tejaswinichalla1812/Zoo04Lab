@@ -1,3 +1,6 @@
+/**
+ * 
+ */
 package edu.nwmissouri.zoo04lab;
 
 /**
@@ -12,6 +15,11 @@ public class Dinosaur extends Animal {
      */
     public Dinosaur(String name) {
         super(name);
+    }
+    enum level{
+        sunday,
+        monday,
+        tuesday
     }
     
     /**
@@ -31,5 +39,24 @@ public class Dinosaur extends Animal {
     public void move() {
         System.out.println("I roam here and there");
     }
+   public int area(int l,int b)
+   {
+            return  l*b;
+    }   
+   public void value(){
+System.out.println("area"+area(3,2));
+}
+   public static void main(String[] args){
+        Dinosaur  d=new Dinosaur("Red");
+        d.speak();
+        d.move();
+        d.area(3,2);
+        d.value();
+        level l=level.sunday;
+        level b=level.monday;
+        level c=level.tuesday;
+        System.out.println("weekdays"+l+"\n"+b+"\n"+c);
     
+    
+}
 }
