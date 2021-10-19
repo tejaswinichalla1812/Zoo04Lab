@@ -10,23 +10,34 @@ package  edu.nwmissouri.zoo04lab;
  * @author Hari Hara Mummadi
  */
 public class MuleDeer extends Animal {
- // Constructor for MuleDeer
+ /**
+  * Using enum
+  * 
+  */
     enum Play{
         Play1,
         Play2,
         Play3
     }
+    /**
+     * constructor for MuleDeer
+     * @param name 
+     */
     public MuleDeer(String name) {
         super(name);
     }
 
-    //Overriding the move
+    /**
+     * Overriding move method
+     */
     @Override
     public void move() {
         System.out.println("I run on my 4 legs!");
     }
 
-   //Overriding the speak
+   /**
+    * Overriding speak method
+    */
     @Override
     public void speak() {
         System.out.printf("I'm %s.I'm an Deer!\n", this.name);

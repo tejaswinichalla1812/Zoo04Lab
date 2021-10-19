@@ -14,15 +14,13 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
- *
+ * This class is about MuleDeerTest
  * @author Hari Hara Mummadi
  */
 public class MuleDeerTest {
-     private final PrintStream standardOut = System.out;
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
     
-    public MuleDeerTest() {
-    }
+    
     @BeforeAll
     public static void setUpClass() {
     }
@@ -45,6 +43,11 @@ public class MuleDeerTest {
      */
     @Test
     public void testMove() {
+        String expected="I run on my 4 legs!";
+        var play4 = new MuleDeer("run");
+        play4.move();
+        String actual= outputStreamCaptor.toString().trim();
+        assertEquals(actual,expected);
     }
 
     /**
@@ -64,6 +67,11 @@ public class MuleDeerTest {
      */
     @Test
     public void testHabitate() {
+       String expected="I live in Zoo and Forest";
+       var play1=new MuleDeer("live");
+       play1.habitate();
+       String actual= outputStreamCaptor.toString().trim();
+       assertEquals(actual,expected);
     }
 
     /**
@@ -71,6 +79,11 @@ public class MuleDeerTest {
      */
     @Test
     public void testFeed() {
+       String expected="I Feed on Grass";
+       var play2=new MuleDeer("feed");
+       play2.feed();
+       String actual= outputStreamCaptor.toString().trim();
+       assertEquals(actual,expected);
     }
 
     /**
@@ -78,6 +91,9 @@ public class MuleDeerTest {
      */
     @Test
     public void testMain() {
+       int actual=6;
+       int expected=Math.round(actual);
+       assertEquals(actual,expected);
     }
     
 }

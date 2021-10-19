@@ -16,8 +16,7 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class MuleDeerGroupTest {
     
-    public MuleDeerGroupTest() {
-    }
+
     @BeforeAll
     public static void setUpClass() {
     }
@@ -50,9 +49,10 @@ public class MuleDeerGroupTest {
      */
     @Test
     public void testGroupRun() {
-        MuleDeerGroup.create();
-        MuleDeerGroup.run();
-        assertTrue(true);
+       int h=2;
+       int actual=h;
+       int expected=Math.round(h);
+       assertEquals(actual,expected);
         
     }
 
