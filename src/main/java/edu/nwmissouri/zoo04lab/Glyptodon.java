@@ -6,10 +6,16 @@
 package edu.nwmissouri.zoo04lab;
 
 /**
- *
- * @author Manish Goud Bandharapu
+ * Glyptodon Class derived from animal class
+ * 
+ * @author Manish Goud Bandharapu 
  */
 public class Glyptodon extends Animal{
+    enum animal {
+        lion,
+        tiger,
+        deer
+        }
     
     /**
      * 
@@ -51,5 +57,9 @@ public class Glyptodon extends Animal{
         a.speak();
         a.move();
         a.profes();
+        animal R1=animal.lion;
+        animal R2=animal.tiger;
+        animal R3=animal.deer;
+        System.out.println("enums:"+R1+"\n"+R2+"\n"+R3);
     }
 }
