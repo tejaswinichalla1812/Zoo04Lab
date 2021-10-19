@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package edu.nwmissouri.zoo04lab;
 
 import org.junit.jupiter.api.AfterEach;
@@ -13,13 +9,13 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author Pavan Kumar Atmakuri
+ * @author Saikrishna Vuppala
  */
-public class BearcatGroupTest {
+public class StringRayGroupTest {
     
-    public BearcatGroupTest() {
+    public StringRayGroupTest() {
     }
-    
+        
     @BeforeAll
     public static void setUpClass() {
     }
@@ -35,26 +31,26 @@ public class BearcatGroupTest {
     @AfterEach
     public void tearDown() {
     }
-    
 
     /**
-     * Test of create method, of class BearcatGroup.
+     * Test of create method, of class StringRayGroup.
      */
     @Test
     public void testCreate() {
-        int expResult = 3;
-        int result = BearcatGroup.create();
-        assertEquals(expResult, result);
+        int expectedSize = 3;
+        int actualSize = StringRayGroup.create();
+        assertEquals(expectedSize, actualSize);
     }
 
     /**
-     * Test of run method, of class BearcatGroup.
+     * Test of run method, of class StringRayGroup.
      */
     @Test
     public void testRun() {
-        BearcatGroup.create();
-        BearcatGroup.run();
+         StringRayGroup.create();
+        StringRayGroup.run();
         assertTrue(true);
+        
     }
     
 }
