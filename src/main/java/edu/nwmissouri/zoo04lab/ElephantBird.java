@@ -60,7 +60,7 @@ public class ElephantBird extends Animal {
         status single = status.one;
         status doubles = status.two;
         status triple = status.three;
- //       System.out.println("Status :"+single+" "+doubles+" "+triple+".")
+        System.out.println("Status :"+single+" "+doubles+" "+triple+".");
     }
     
 }
