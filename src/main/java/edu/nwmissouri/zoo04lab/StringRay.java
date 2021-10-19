@@ -18,7 +18,10 @@ public class StringRay extends Animal {
     public StringRay(String name) {
         super(name);
     }
-
+    
+   /**
+   * Swim method
+   */
    // @Override
     public void swim() {
         System.out.println("Generic animal swim");
