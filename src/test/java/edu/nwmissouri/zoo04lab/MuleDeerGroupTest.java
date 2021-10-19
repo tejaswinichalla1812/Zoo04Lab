@@ -4,25 +4,44 @@
  */
 package edu.nwmissouri.zoo04lab;
 
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import org.junit.jupiter.api.Test;
-
 /**
- *
+ * This class is about MuleDeerGroup
  * @author Hari Hara Mummadi
  */
 public class MuleDeerGroupTest {
     
     public MuleDeerGroupTest() {
     }
+    @BeforeAll
+    public static void setUpClass() {
+    }
+
+    @AfterAll
+    public static void tearDownClass() {
+    }
+
+    @BeforeEach
+    public void setUp() {
+    }
+
+    @AfterEach
+    public void tearDown() {
+    }
 
     /**
      * Test of create method, of class MuleDeerGroup.
      */
     @Test
-    public void testCreate() {
+    public void testGroupCreate() {
+        int actual=3;
+        int expected=Math.round(actual);
+        assertEquals(actual,expected);
 
     }
 
@@ -30,10 +49,10 @@ public class MuleDeerGroupTest {
      * Test of run method, of class MuleDeerGroup.
      */
     @Test
-    public void testRun() {
-        int actual=3;
-        int expected=Math.round(actual);
-        assertEquals(actual,expected);
+    public void testGroupRun() {
+        MuleDeerGroup.create();
+        MuleDeerGroup.run();
+        assertTrue(true);
         
     }
 

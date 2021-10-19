@@ -3,7 +3,7 @@ package edu.nwmissouri.zoo04lab;
 import java.util.ArrayList;
 
 /**
- *
+ * This class is about MuleDeerGroup
  * @author Hari Hara Mummadi
  */
 public class MuleDeerGroup {
