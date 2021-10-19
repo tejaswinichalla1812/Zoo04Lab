@@ -48,7 +48,7 @@ public class StringRayTest {
      */
     @Test
     public void testSwim() throws Exception{
-        String expected = "Generic animal swim";
+        String expected = "I swim in water";
         var stringRay = new StringRay("sai");
         stringRay.swim();
         String actual = outputStreamCaptor.toString().trim();
@@ -64,7 +64,7 @@ public class StringRayTest {
      */
     @Test
     public void testMove() throws Exception {
-        String expected = "Generic animal movement";
+        String expected = "When I move I swim";
         var stringRay = new StringRay("Sai");
         stringRay.move();
         String actual = outputStreamCaptor.toString().trim();
@@ -76,10 +76,32 @@ public class StringRayTest {
      */
     @Test
     public void testSpeak() {
-        String expected = "Generic animal voice";
+        String expected = "I speak shhh..";
         var stringRay = new StringRay("Sai");
         stringRay.speak();
         String actual = outputStreamCaptor.toString().trim();
+        assertEquals(expected, actual);
+    }
+    
+     /**
+     * Test custom function PantheraAddition()
+     *
+     * @throws Exception
+     */
+    
+    @Test
+    public void testStringRayAddition() throws Exception {
+        
+        // set up test, figure out expected by hand
+        double a = 6.0;
+        int b = 9;
+        double expected = 15.0;
+
+        // call function to get the actual
+        var StringRay = new StringRay("Tommy");
+        double actual = StringRay.getStringRayAddition(a, b);
+
+        // assertEquals(expected, actual);
         assertEquals(expected, actual);
     }
     
