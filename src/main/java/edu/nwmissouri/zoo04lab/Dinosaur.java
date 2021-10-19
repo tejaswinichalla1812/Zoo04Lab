@@ -1,6 +1,3 @@
-/**
- * 
- */
 package edu.nwmissouri.zoo04lab;
 
 /**
@@ -39,13 +36,26 @@ public class Dinosaur extends Animal {
     public void move() {
         System.out.println("I roam here and there");
     }
+    /**
+     * 
+     * @param l
+     * @param b
+     * @return l*b
+     */
    public int area(int l,int b)
    {
             return  l*b;
     }   
+   /**
+    * This method prints area
+    */
    public void value(){
 System.out.println("area"+area(3,2));
 }
+   /**
+    * 
+    * @param args 
+    */
    public static void main(String[] args){
         Dinosaur  d=new Dinosaur("Red");
         d.speak();

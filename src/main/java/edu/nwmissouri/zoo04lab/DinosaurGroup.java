@@ -36,7 +36,7 @@ public class DinosaurGroup {
             Dinosaur.speak();
             Dinosaur.move();
         });
-        System.out.println("Great Dinosaur's..it was a fun ride!");
+        System.out.println("Huge Dinosaur's..it was a fun ride!");
         System.out.println("Dinosaurrrrrr.....!");
     }
 
