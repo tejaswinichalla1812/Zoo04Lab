@@ -46,7 +46,7 @@ public class ElephantBirdTest {
      */
     @Test
     public void testSpeak() throws Exception {
-        String expected = "I'm an ElephantBird! I won't Fly.";
+        String expected = "I'm Heman. I'm an ElephantBird!";
         var elephantBird = new ElephantBird("Heman");
         elephantBird.speak();
         String actual = outputStreamCaptor.toString().trim();
@@ -60,7 +60,7 @@ public class ElephantBirdTest {
      */
     @Test
     public void testMove() throws Exception {
-        String expected = "When I move, I walk, walk, walk and can run fast fast.";
+        String expected = "When I move, I run,run,run.";
         var elephantBird = new ElephantBird("Heman");
         elephantBird.move();
         String actual = outputStreamCaptor.toString().trim();
@@ -74,7 +74,7 @@ public class ElephantBirdTest {
      */
     @Test
     public void testElephantBirdAddition() throws Exception {
-        
+
         // set up test, figure out expected by hand
         double first = 5.0;
         int second = 10;
