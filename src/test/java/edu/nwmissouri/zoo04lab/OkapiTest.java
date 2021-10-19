@@ -14,13 +14,14 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 /**
- *Test Panthera using JUnit5
- * @author Pinninti Harshika
+ *
+ * Test Okapi using JUnit5
+ * @author Pranay Bhargav Reddy Bakaram(S545147)
  */
-public class PantheraTest {
-     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
+public class OkapiTest {
+      private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
 
-    public PantheraTest() {
+    public OkapiTest() {
     }
 
     @BeforeAll
@@ -41,58 +42,52 @@ public class PantheraTest {
     }
 
     /**
-     * Test speak method, of class Panthera.
+     * Test speak method, of class Okapi.
      *
      * @throws java.lang.Exception
      */
     @Test
     public void testSpeak() throws Exception {
-        String expected = "I am Panthera";
-        var Panthera = new Panthera("Harshika");
-        Panthera.speak();
+        String expected = "I'm Pranay. I'm an Okapi!";
+        var okapi = new Okapi("Pranay");
+        okapi.speak();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
 
     /**
-     * Test move method , for the Panthera
+     * Test move method, of class Okapi.
      *
      * @throws java.lang.Exception
      */
     @Test
     public void testMove() throws Exception {
-        String expected = "I can eat and walk";
-        var Panthera = new Panthera("Harshika");
-        Panthera.move();
+        String expected = "hop hop hop";
+        var okapi = new Okapi("Pranay");
+        okapi.move();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
     }
 
     /**
-     * Test custom function PantheraAddition()
+     * Test custom function OkapiAddition()
      *
      * @throws Exception
      */
-    
     @Test
-    public void testPantheraAddition() throws Exception {
+    public void testOkapiAddition() throws Exception {
         
         // set up test, figure out expected by hand
-        double a = 6.0;
-        int b = 9;
+        double first = 5.0;
+        int second = 10;
         double expected = 15.0;
 
         // call function to get the actual
-        var Panthera = new Panthera("Tommy");
-        double actual = Panthera.getPantheraAddition(a, b);
+        var okapi = new Okapi("Pranay");
+        double result = okapi.getOkapiAddition(first, second);
 
         // assertEquals(expected, actual);
-        assertEquals(expected, actual);
+        assertEquals(expected, result);
     }
 
 }
-    
-
-
-
-
