@@ -11,89 +11,81 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 /**
- * This is the Test of MightyLion using JUnit5
+ * Test MightyLion using JUnit5
  *
  * @author Vijay Kumar Chunchu
  */
-
 public class MightyLionTest {
 
     private final ByteArrayOutputStream outputStreamCaptor = new ByteArrayOutputStream();
-    
-    public MightyLionTest(){
-        
+
+    public MightyLionTest() {
     }
 
- 
     @BeforeAll
-    public static void hunt() {
+    public static void setUpClass() {
     }
 
     @AfterAll
-    public static void chase() {
+    public static void tearDownClass() {
     }
 
     @BeforeEach
-    public void huntClass() {
+    public void setUp() {
         System.setOut(new PrintStream(outputStreamCaptor));
     }
 
     @AfterEach
-    public void chaseClass() {
+    public void tearDown() {
     }
 
     /**
-     * This is the Test speak method, of MightyLion class.
+     * Test speak method, of class Aardvark.
      *
      * @throws java.lang.Exception
      */
-  
-  @Test
+    @Test
     public void testSpeak() throws Exception {
-        String pride = "I'm a cango lion";
-        var mightylion = new MightyLion("cango");
-         mightylion.speak();
-        String family = outputStreamCaptor.toString().trim();
-        assertEquals(pride,family);
+        String expected = "I am %s Lion.I will roar.";
+        var mightyLion = new MightyLion("cango");
+        mightyLion.speak();
+        String actual = outputStreamCaptor.toString().trim();
+        assertEquals(expected, actual);
     }
 
     /**
-     * This is the Test of move method, of MightyLion class.
+     * This is Test of  move method, of class MightyLion.
      *
      * @throws java.lang.Exception
      */
-    
-@Test
+    @Test
     public void testMove() throws Exception {
-        String pride = "I am carnivores and I will hunt the animals";
-        var mightylion = new MightyLion("cango lion");
+        String expected = "I will Walk and run.";
+        var mightylion = new MightyLion("cango");
         mightylion.move();
-        String family = outputStreamCaptor.toString().trim();
-        assertEquals(pride,family);
+        String actual = outputStreamCaptor.toString().trim();
+        assertEquals(expected, actual);
     }
 
     /**
-     * This is the Test to custom function mightylionAddition()
+     * this is  Test  of custom function mightylionAddition()
      *
      * @throws Exception
      */
-    
-@Test
+    @Test
     public void testMightyLionAddition() throws Exception {
         
         // set up test, figure out expected by hand
-        double age = 3.0;
-        int friends = 6;
-        double pride= 10.0;
+        double first = 3.0;
+        int second = 6;
+        double expected = 9.0;
 
         // call function to get the actual
         var mightylion = new MightyLion("cango");
-        double family = mightylion.getMightyLionAddition(age,friends);
+        double actual = mightylion.getMightyLionAddition(first, second);
 
-        
-        assertEquals(pride,family);
+        // assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
-    
-    }
-
+}
