@@ -7,6 +7,13 @@ package edu.nwmissouri.zoo04lab;
  */
 public class ElephantBird extends Animal {
     
+    enum status{
+        one,
+        two,
+        three,
+        four
+    }
+    
     /**
      * ElephantBird name
      *
@@ -38,7 +45,7 @@ public class ElephantBird extends Animal {
         double a = 2.5;
         int b = 2;
         double c = getElephantBirdAddition(a,b);
-        System.out.printf("I know BlackPanther addition! %4.2f plus %d is %4.2f \n",a,b,c);
+        System.out.printf("I know ElephantBird addition! %4.2f plus %d is %4.2f \n",a,b,c);
     }
 
     double getElephantBirdAddition(double first, int second) {
@@ -50,6 +57,10 @@ public class ElephantBird extends Animal {
         a.speak();
         a.move();
         a.profes();
+        status single = status.one;
+        status doubles = status.two;
+        status triple = status.three;
+        System.out.println("Status :"+single+" "+doubles+" "+triple+".");
     }
     
 }
