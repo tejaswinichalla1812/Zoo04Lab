@@ -27,7 +27,7 @@ public class BrachiosaurusGroup {
     }
 
     /**
-     * Run (simulate) the group doing things
+     * Run (simulate) the group doing thing
      */
     public static void run() {
         System.out.println("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
