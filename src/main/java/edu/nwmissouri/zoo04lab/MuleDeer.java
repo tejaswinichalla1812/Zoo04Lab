@@ -48,12 +48,24 @@ public class MuleDeer extends Animal {
     public void feed(){
         System.out.println("I Feed on Grass");
     }
+    public void calculate() {
+        int a = 4;
+        int b = 5;
+        int c = getMuleDeerAdd(a, b);
+        System.out.printf("MuleDeer addition!"+c+"\n");
+    }
+     public int getMuleDeerAdd(int value1, int value2) {
+        int h=value1+value2;
+         return h;
+    }
      public static void main(String[] args){
         MuleDeer i=new MuleDeer("play");
         i.move();
         i.habitate();
         i.speak();
         i.feed();
+        i.calculate();
+        i.getMuleDeerAdd(4, 5);
         Play p1=Play.Play1;
         Play p2=Play.Play2;
         Play p3=Play.Play3;
