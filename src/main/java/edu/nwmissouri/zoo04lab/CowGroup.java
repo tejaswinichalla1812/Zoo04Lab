@@ -8,6 +8,7 @@ import java.util.ArrayList;
  * @author Harika_Chintala
  */
 public class CowGroup {
+    
 
     private static ArrayList<Cow> myGroup;
 
