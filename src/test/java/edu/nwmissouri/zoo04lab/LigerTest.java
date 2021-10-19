@@ -48,7 +48,7 @@ public class LigerTest {
     @Test
     public void testSpeak() throws Exception {
         String expected = "I roar loud. I'm an Liger!";
-        var Liger = new Liger("Allie");
+        var Liger = new Liger("bois");
         Liger.speak();
         String actual = outputStreamCaptor.toString().trim();
         assertEquals(expected, actual);
